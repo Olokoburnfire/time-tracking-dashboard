@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <man class="container">
+    <section class="dashboard_header_container">
+      <!-- The top wrapper -->
+      <div id="top-wrapper">
+        <div class="potrait">
+          <img src="./images/image-jeremy.png" alt="Jeremy">
+        </div>
+        <div>
+          <h6>Report for</h6>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div id="bottom-wrapper">
+        <button class="nav_btn day">Daily</button>
+        <button class="nav_btn week active">Weekly</button>
+        <button class="nav_btn month">Monthly</button>
+      </div>
+    </section>
+    <section class="dashboard_content_container">
+      <ul class="content_container">
+        <li class="sub_container">
+          <div class="top_container work"></div>
+          <div class="work_container ">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+        <li class="sub_container">
+          <div class="top_container play"></div>
+          <div class="play_container">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+        <li class="sub_container">
+          <div class="top_container study"></div>
+          <div class="study_container">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="content_container">
+        <li class="sub_container">
+          <div class="top_container exercise"></div>
+          <div class="exercise_container">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+        <li class="sub_container">
+          <div class="top_container social"></div>
+          <div class="social_container">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+        <li class="sub_container">
+          <div class="top_container selfCare"></div>
+          <div class="selfCare_container">
+            <div class="sub-nav">
+              <h4 class="title"></h4>
+              <button class="btn">
+                <img src="./images/icon-ellipsis.svg" alt="menu">
+              </button>
+            </div>
+            <div class="data">
+              <h1 class="current_time"></h1>
+              <p class="previous_time"></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </man>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="olokodanaabdulkabir@gmail.com">Olokodana Abdulkabir</a>.
+    </div>
+  </footer>
+
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
